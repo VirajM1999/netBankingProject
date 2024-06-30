@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logoImage {
+	float: left;
+	height: 50px;
+	width: 100px;
+}
+
+.logText {
+	margin-top: 3px;
+	float: left;
+	font-size: 22px;
+	text-align: center;
+	color: antiquewhite;
+}
+
+.logText>p {
+	font-weight: bolder;
+}
+
+.mgs {
+	font-weight: bolder;
+	color: antiquewhite;
+	font-size: 35px;
+}
+.footer
+{
+	background-color: black;
+	border:1px solid black;
+}
+
+.clear_div {
+	clear: both;
+}
+
+.imagelogo {
+	float: left;
+	margin-left: 20px;
+}
+
+.nav_links {
+	display: inline;
+	float: right;
+	margin-right: 20px;
+}
+
+.nav_link {
+	float: left;
+	color: white;
+	list-style: none;
+	display: block;
+	height: 50px;
+	margin: 0px 15px 0px 15px;
+	padding: 15px 0px;
+}
+
+.nav_link>a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.nav_link>a:hover {
+	color: #eb4034;
+}
+.nav_bar {
+	background-color:#172947;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	text-align: center;
+	color: antiquewhite;
+}
+
+#error_message {
+	color: red;
+	margin-top: 10px;
+}
+.clear_div {
+	clear: both;
+}
+
+body {
+	background-color: #b1b1b1;
+	 font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+
+.heading {
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 40px;
+}
+
+table, th, td {
+	
+	border-collapse: collapse;
+}
+
+table {
+	margin: auto;
+	margin-top: 20px;
+	dorder: none;
+	width:95%;
+	margin: auto;
+}
+
+th {
+	padding: 10px;
+	font-size: 22px;
+	text-align: center;
+	background-color: #0855d1;
+	color: white;
+	border: none;
+}
+
+td {
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+}
+
+tr:nth-child(even) {
+background-color:#f5e1b8;
+}
+tr:nth-child(odd)
+{
+background-color: white;
+} 
